@@ -24,6 +24,6 @@ fun main() {
     println(salarios.find { it == 500.0})
 
     println("----------------------------")
-    println(salarios.any() { it == 1000.0})
-    println(salarios.any() { it == 500.0})
+    println(salarios.any { it == 1000.0})
+    println(salarios.any { it == 500.0})
 }
